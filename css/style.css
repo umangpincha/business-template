@@ -108,8 +108,8 @@ html {
 }
 
 .second-div {
-  border: 2px solid red;
-  height: 500vh;
+  /* border: 2px solid red; */
+  height: 300vh;
 }
 
 .second-div .center-text {
@@ -196,40 +196,39 @@ p {
   color: #ffffff;
 }
 
-
-.box2 .left-img img{
-    width: 30%;
-    height: 30rem;
-    float: left;
-    position: relative;
-    left: 291px;
-    top: -132px;
+.box2 .left-img img {
+  width: 30%;
+  height: 30rem;
+  float: left;
+  position: relative;
+  left: 291px;
+  top: -132px;
 }
 
-.box2 .my-right-text{
-    float: right;
+.box2 .my-right-text {
+  float: right;
 }
 
-.box2 .my-right-text{
-    /* border: 2px solid black; */
-    width: 40%;
-    position: relative;
-    top: -100px;
-    right: 20px;
+.box2 .my-right-text {
+  /* border: 2px solid black; */
+  width: 40%;
+  position: relative;
+  top: -100px;
+  right: 20px;
 }
 
-.box2 .my-right-text h1{
-    /* border: 2px solid black; */
-    width: 100%;
+.box2 .my-right-text h1 {
+  /* border: 2px solid black; */
+  width: 100%;
 }
 
-.box2 .my-right-text p{
-    /* border: 2px solid black; */
-    text-align: left;
-    position: relative;
-    left: -150px;
+.box2 .my-right-text p {
+  /* border: 2px solid black; */
+  text-align: left;
+  position: relative;
+  left: -150px;
 }
-.box2 .my-right-text button{
+.box2 .my-right-text button {
   margin-top: 14px;
   padding: 10px;
   background-color: #38cc77;
@@ -237,7 +236,7 @@ p {
   color: #ffffff;
 }
 
-.my-teams{
+.my-teams {
   /* border: 2px solid black;  */
   position: relative;
   top: 190px;
@@ -247,7 +246,7 @@ p {
   right: 10%;
 }
 
-.mt-rt{
+.mt-rt {
   /* border: 2px solid black;  */
   width: 20%;
   float: right;
@@ -257,22 +256,21 @@ p {
   text-align: justify;
 }
 
-.mt-lt h1{
+.mt-lt h1 {
   /* border: 2px solid black; */
   position: relative;
   left: -140px;
 }
 
-
-.see-more-btn{
+.see-more-btn {
   /* border: 2px solid black; */
   position: relative;
-  top: 192px;
+  top: -800px;
   height: 200px;
   width: 100%;
 }
 
-.see-more-btn button{
+.see-more-btn button {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -280,4 +278,50 @@ p {
   padding: 10px;
   background-color: #38cc77;
   border: none;
+}
+
+.my-boxes img {
+  display: flex;
+}
+.myb-box1 img {
+  width: 20%;
+  position: relative;
+  left: 15%;
+  top: 10px;
+}
+.myb-box1 h1 {
+  width: 20%;
+  position: relative;
+  left: 15%;
+  top: 13px;
+}
+
+.myb-box2 img {
+  /* border: 2px solid black; */
+  width: 20%;
+  position: relative;
+  left: 44%;
+  top: -400px;
+}
+
+.myb-box2 h1 {
+  width: 20%;
+  position: relative;
+  left: 44%;
+  top: -400px;
+}
+
+.myb-box3 img {
+  /* border: 2px solid black; */
+  width: 20%;
+  position: relative;
+  left: 70%;
+  top: -813px;
+}
+
+.myb-box3 h1 {
+  width: 20%;
+  position: relative;
+  left: 70%;
+  top: -800px;
 }
